@@ -30,3 +30,5 @@ end
 Rails.application.routes.draw do
   resources :user
 end
+
+# cria as 7 rotas de maneira mais fácil
