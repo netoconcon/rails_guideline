@@ -32,3 +32,22 @@ Rails.application.routes.draw do
 end
 
 # cria as 7 rotas de maneira mais fácil
+
+
+
+********* Para Testar se o Model está Correto **********
+
+>>terminal >> rails c
+
+tico = User.new
+tico.name = “Thierry”
+tico.github = “thierrymr”
+tico.job = “data scientist”
+tico.valid? # => se responder true salvar
+
+tico.save
+
+***********************************************************
+
+
+
